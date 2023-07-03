@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins" , sans-serif;
+  font-family: 'Google Sans Mono', monospace;
 }
 body{
   height: 100vh;
@@ -17,12 +17,12 @@ body{
   position: relative;
   display: inline-block;
   color: #fff;
-  padding: 12px 38px;
+  padding: 40px 70px;
   background: linear-gradient(90deg, #6616d0, #ac34e7);
-  border-radius: 45px;
-  margin: 10px;
-  font-size: 30px;
-  font-weight: 400;
+  border-radius: 50px;
+  margin: 20px;
+  font-size: 55px;
+  font-weight: 500;
   text-decoration: none;
   box-shadow: 3px 5px rgba(0, 0, 0, 0.1);
   border-top: 1px solid rgba(0,0,0,0.1);
@@ -51,5 +51,4 @@ body{
     width: 400px;
     opacity: 0;
   }
-
 }

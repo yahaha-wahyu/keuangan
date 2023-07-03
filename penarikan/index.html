@@ -43,7 +43,9 @@
                     <div>
                         <button class="btn btn-primary me-2" type="submit">Tarik</button>
                         <button class="btn btn-danger" type="reset">Ulang</button>
-                    </div>
+                        <button class="btn btn-secondary" style="background-color: rgb(17, 116, 83);" type="button" onclick="goToFile()">Setor</button>
+                        <button class="btn btn-secondary" type="button" onclick="goToFile2()">Back</button>
+                      </div>
                 </form>
             </div>
         </div>
@@ -69,6 +71,12 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
     <script>
+      function goToFile2() {
+        window.location.href = "../index.html";
+      }
+      function goToFile() {
+        window.location.href = "../pemasukan/index.html";
+      }
         const scriptURL = 'https://script.google.com/macros/s/AKfycbzfHKays5--SiDB--xKdMfZplPsL4Wmbj32azxeJkk3bzuwY1Yokheqtq-vPQrrXmam/exec'
         const form = document.forms['google-sheet']
       
@@ -140,7 +148,7 @@
       </script>
       <footer class="footer">
         <div class="container">
-            <p class="footer-text">CATATAN KEUANGAN HUGO & ZALFA</p>
+            <p class="footer-text">INPUT PEMBUKUAN KEUANGAN HUGO & ZALFA</p>
         </div>
     </footer>
     <style>
@@ -162,7 +170,7 @@
   }
   
   .footer-text {
-    font-size: 15px;
+    font-size: 16px;
     margin: 0;
     font-weight: bold;
     font-family: 'Google Sans Mono', monospace;
